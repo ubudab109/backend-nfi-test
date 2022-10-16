@@ -6,10 +6,12 @@
 - NODE V 16+
 - NPM V 8.5+ or Yarn 1.22+
 
+
 ## CONFIGURATION
 - Rename .env.example to .env and change the Environment variable to suit yours
+- Run `npm install` or `yarn install` if You prefer to use Yarn
 - Run `npm run tsc` to build the project
-- Run `node ./build/server.js` to run the project. By default this project will be runing in port 3030, but You can change in the .env file
+- Run `node ./build/server.js` to run the project. By default this project will be runing in port 3030, but You can change in the .env file. Then, the table will automatically migrating the column. If You got any error, kindly check the .env value
 
 # API
 - ### List Users
